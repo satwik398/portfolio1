@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+        <div class="cont1">
+            <div id="navbar" class="d-flex">
+                <p class="logo">
+                    SATWIK
+                </p>
+                <a href="#home">Home</a>
+                <a href="#sectionAbout">About</a>
+                <a href="#sectionSkills">Skills</a>
+                <a href="#sectionContact">Contact</a>
+                <a href="#sectionMyw">My Work</a>
+              </div>
+              
+            <div class="card1">
+                <div class="card2">
+                    <p1 class="h1">
+                        Hello, I'm
+                        <span class="name">Satwik Singh. </span>
+                    </p1>
+                    <p class="h1">
+                        I'm a frontend web developer.
+                    </p>
+                </div>
+                <button class="btn1" onclick="location.href = '#sectionAbout'">
+                    <a href="#sectionAbout" class="h2">View my work</a>
+                </button>
+                
+            </div>
+
+            <div id="sectionAbout" class="card3">
+                <div>
+                    <img src="images/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg" alt="" class="dp">
+                    <p class="p2">Who's this guy?</p>
+                    <p class="p3">
+                        I'm a Front-End Developer in Chandigarh, Punjab.
+                    </p>
+                    <p class="p3">
+                        I have serious passion for UI effects, animations
+                    </p>
+                    <p class="p3">
+                        and creating intuitive, dynamic user experiences.Let's 
+                    </p>
+                    <p class="p3">
+                        make something special.
+                    </p>
+                </div>
+            </div>
+            
+            <div id="sectionMyw" class="card1">
+                <div class="card2">
+                    <p class="h1">
+                        Future projects will be displayed here.
+                    </p>
+                </div>
+                <button class="btn1">
+                    <a href="index.html" class="h2">Back to top</a>
+                </button>
+                
+            </div>
+            <div id="sectionSkills" class="card4">
+                <div>
+                    <h1 class="h3">
+                        Skills
+                    </h1>
+                    <div>
+                        <ul class="list1">
+                            <li style="display: inline;">
+                                <img src="images/3d-python-programming-language-logo-free-png.webp" alt="" class="image">
+                            </li>
+                            <li style="display: inline;">
+                                <img src="images/html-logo-6563588-5453024.png" alt="" class="image">
+                            </li>
+                            <li style="display: inline;">
+                                <img src="images/1-2-java-free-png-image.png" alt="" class="image">
+                            </li>
+                        </ul>
+                        <ul class="list1">
+                            <li style="display: inline;">
+                                <img src="images/css-logo-6563485-5453030.webp" alt="" class="image">
+                            </li>
+                            <li style="display: inline;">
+                                <img src="images/3d-javascript-logo-design-free-png.png" alt="" class="image">
+                            </li>
+                            <li style="display: inline;">
+                                <img src="images/3d-c-programming-language-logo-free-png.png" alt="" class="image">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="btn1">
+                    <a href="index.html" class="h2">Back to top</a>
+                </button>
+            </div>
+            <div id="sectionContact" class="card1">
+                <div class="card2">
+                    <p class="h3">Contact</p>
+                    <p class="h1">
+                        Email- satwik398@gmail.com
+                    </p>
+                    <p class="h1">
+                        Phone- 9548209354
+                    </p>
+                </div>
+                <button class="btn1">
+                    <a href="index.html" class="h2">Back to top</a>
+                </button>
+                
+            </div>
+            
+        
+        <div class="contactus">
+            <h3>Contact us</h3>
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+            <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+            <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+        </div>
+        </div>
+    </div>
+    </body>
+</html>

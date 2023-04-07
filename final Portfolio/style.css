@@ -1,0 +1,224 @@
+.cont1{
+    background-image: url('images/william-daigneault-Cd84YdL9px8-unsplash.jpg');
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.card1{
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    padding-top: 35vh;
+}
+
+
+.h1{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 15px;
+    color: white;
+}
+
+.h1::selection{
+    color: rgb(255, 221, 1);
+}
+
+.h2{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 5px;
+    color: white;
+}
+
+.h2::selection{
+    color: rgb(255, 221, 1);
+}
+
+.h2:hover{
+    color: rgb(255, 221, 1);
+}
+
+.btn1{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.name{
+    color: rgb(255, 221, 1);
+}
+
+.name::selection{
+    color: white;
+}
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #080808;
+    position: fixed;
+}
+  
+  /* Navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+  
+.content {
+    padding: 16px;
+}
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.logo{
+    color: rgb(255, 221, 1);
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: 'Cambria';
+}
+
+.logo::selection{
+    color: white;
+}
+
+.logo:hover{
+    font-size: large;
+}
+
+.h3{
+    color: rgb(255, 221, 1);
+    font-size: 35px;
+}
+
+.list1{
+    list-style: none;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    justify-content: center;
+    padding: 10px;
+    word-spacing: 20vw;
+}
+
+.dp{
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.p2{
+    font-size: 30px;
+    font-family: 'Bree sans';
+    color: rgb(255, 221, 1);
+}
+
+.p2::selection{
+    color: white;
+}
+
+.p3{
+    font-size: 20px;
+    font-family: 'Bree sans';
+    color: white;
+}
+
+.p3::selection{
+    color: rgb(255, 221, 1);
+}
+
+.card3{
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5vh;
+    padding: 20px;
+    margin: 30vh;
+    border-radius: 15px;
+    background-color: #080808;
+}
+
+
+.card4{
+    height: 60vh;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5vh;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin: 30vh;
+    margin-bottom: 0px;
+    border-radius: 15px;
+    background-color: #080808;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+}
+
+.image:hover{
+    height: 120px;
+    width: 120px;
+}
+
+
+.fcf-body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255, 221, 1);
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #5DADE2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+
+.contactus{
+    background-color: #080808;
+    color: rgb(255, 221, 1);
+    border-radius: 15px;
+    margin: 30vh;
+    margin-bottom: 0vh;
+    padding: 15px;
+}
+  
+.list1{
+    margin: 15px;
+}
